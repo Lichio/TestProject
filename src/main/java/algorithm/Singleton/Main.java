@@ -1,13 +1,20 @@
 package algorithm.Singleton;
 
 /**
- * TestProject algorithm.Singleton
+ * TestProject algorithm.Singleton1
  *
  * @author Lichaojie
  * @version 2018/8/10 17:16
  */
 public class Main {
-
+	public static void main(String[] args){
+		System.out.println(Singleton1.getInstance() == Singleton1.getInstance());
+		System.out.println(Singleton2.getInstance() == Singleton2.getInstance());
+		System.out.println(Singleton3.getInstance() == Singleton3.getInstance());
+		System.out.println(Singleton4.getInstance() == Singleton4.getInstance());
+		System.out.println(Singleton5.getInstance() == Singleton5.getInstance());
+		System.out.println(Singleton6.INSTANCE == Singleton6.INSTANCE);
+	}
 }
 
 /**
