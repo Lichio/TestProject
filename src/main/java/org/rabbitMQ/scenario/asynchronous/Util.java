@@ -14,8 +14,8 @@ import com.rabbitmq.client.DeliverCallback;
 public class Util {
 
 	/**
-	 * ´ÓMQ½ÓÊÕÏûÏ¢ ²¢´¦Àí
-	 * @param queueName ¶ÓÁĞÃû
+	 * ä»MQæ¥æ”¶æ¶ˆæ¯ å¹¶å¤„ç†
+	 * @param queueName é˜Ÿåˆ—å
 	 */
 	public static void recvMessage(String queueName){
 		ConnectionFactory factory = new ConnectionFactory();
@@ -44,9 +44,9 @@ public class Util {
 	}
 
 	/**
-	 * ½«ÏûÏ¢·¢ËÍµ½¶ÔÓ¦µÄMQÖĞ
-	 * @param queueName ¶ÓÁĞÃû
-	 * @param message ÏûÏ¢ÄÚÈİ
+	 * å°†æ¶ˆæ¯å‘é€åˆ°å¯¹åº”çš„MQä¸­
+	 * @param queueName é˜Ÿåˆ—å
+	 * @param message æ¶ˆæ¯å†…å®¹
 	 */
 	public static void postMessage(String queueName, String message){
 		ConnectionFactory factory = new ConnectionFactory();
@@ -61,7 +61,7 @@ public class Util {
 	}
 
 	/**
-	 * ²åÈëÊı¾İ
+	 * æ’å…¥æ•°æ®
 	 */
 	public static void insertData(){
 		try {
@@ -73,7 +73,7 @@ public class Util {
 	}
 
 	/**
-	 * ·¢ËÍÓÊ¼ş
+	 * å‘é€é‚®ä»¶
 	 */
 	public static void sendMail(){
 		try {
@@ -85,7 +85,7 @@ public class Util {
 	}
 
 	/**
-	 * ·¢ËÍ¶ÌĞÅ
+	 * å‘é€çŸ­ä¿¡
 	 */
 	public static void sendSMS(){
 		try {

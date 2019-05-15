@@ -5,7 +5,6 @@ import oj.nk.TreeNode;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.LinkedList;
-import java.util.List;
 
 /**
  * TestProject oj.nk.按之字形顺序打印二叉树

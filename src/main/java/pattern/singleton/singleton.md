@@ -3,7 +3,6 @@ Singleton2实现方式的类图
 
 ![ClassDiagram](../../../resources/static/singleton.png)
 
-
 ### 示例
 其它实现方式见本目录下的其他类
 

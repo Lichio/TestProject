@@ -3,7 +3,6 @@ package oj.nk.从尾到头打印链表;
 import oj.nk.ListNode;
 
 import java.util.ArrayList;
-import java.util.Collections;
 
 /**
  * TestProject oj.nk

@@ -1,6 +1,5 @@
 package oj.nk.把数组排成最小的数;
 
-import java.io.PrintStream;
 import java.util.Arrays;
 
 /**

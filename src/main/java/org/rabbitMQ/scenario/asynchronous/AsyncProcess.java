@@ -1,9 +1,5 @@
 package org.rabbitMQ.scenario.asynchronous;
 
-import com.rabbitmq.client.Channel;
-import com.rabbitmq.client.Connection;
-import com.rabbitmq.client.ConnectionFactory;
-
 /**
  * TestProject org.rabbitMQ.scenario.asynchronous
  *
@@ -25,12 +21,12 @@ public class AsyncProcess {
 	}
 
 	/**
-	 * 串行同步操作
+	 * 涓茶鍚屾鎿嶄綔
 	 */
 	public static void strategy1() throws Exception{
 		Util.insertData();
 
-		Thread.sleep(600);// 网络通信时间开销
+		Thread.sleep(600);// 缃戠粶閫氫俊鏃堕棿寮�閿�
 		Util.sendMail();
 
 		Thread.sleep(600);
@@ -38,7 +34,7 @@ public class AsyncProcess {
 	}
 
 	/**
-	 * 使用消息队列异步操作
+	 * 浣跨敤娑堟伅闃熷垪寮傛鎿嶄綔
 	 */
 	public static void strategy2(){
 		Util.insertData();

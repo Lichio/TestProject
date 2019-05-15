@@ -2,8 +2,6 @@ package oj.nk.链表中环的入口节点;
 
 import oj.nk.ListNode;
 
-import java.util.List;
-
 /**
  * TestProject oj.nk.链表中环的入口节点
  *

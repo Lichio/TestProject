@@ -2,7 +2,6 @@ package oj.nk.二叉搜索树的第k个结点;
 
 import oj.nk.TreeNode;
 
-import java.util.ArrayList;
 import java.util.Stack;
 
 /**

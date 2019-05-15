@@ -1,7 +1,5 @@
 package oj.nk.数据流中的中位数;
 
-import oj.nk.ListNode;
-
 import java.util.ArrayList;
 import java.util.List;
 
