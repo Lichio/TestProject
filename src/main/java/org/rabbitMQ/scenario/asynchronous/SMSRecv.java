@@ -6,7 +6,7 @@ package org.rabbitMQ.scenario.asynchronous;
  * @author Lichaojie
  * @version 2019/4/28 16:38
  *
- * 接收短信消息进行处理
+ * 鎺ユ敹鐭俊娑堟伅杩涜澶勭悊
  */
 public class SMSRecv {
 	public static void main(String[] args){

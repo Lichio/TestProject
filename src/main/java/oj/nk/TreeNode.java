@@ -7,6 +7,7 @@ package oj.nk;
  * @version 2018/6/11 15:48
  */
 public class TreeNode {
+
 	public int val;
 	public TreeNode left;
 	public TreeNode right;

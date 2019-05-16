@@ -9,7 +9,7 @@
 ### 示例
 见本目录下的其他类
 
-![](../../../../resources/static/simple_factory_example.png)
+![image](../../../../resources/static/simple_factory_example.png)
 
 此处的Animal为抽象类
 

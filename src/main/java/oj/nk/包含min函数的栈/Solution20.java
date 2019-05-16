@@ -1,6 +1,5 @@
 package oj.nk.°üº¬minº¯ÊıµÄÕ»;
 
-import java.util.Iterator;
 import java.util.Stack;
 
 /**

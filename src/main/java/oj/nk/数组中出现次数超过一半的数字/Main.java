@@ -1,8 +1,5 @@
 package oj.nk.数组中出现次数超过一半的数字;
 
-import java.util.HashMap;
-import java.util.Map;
-
 /**
  * TestProject oj.nk.数组中出现次数超过一半的数字
  *

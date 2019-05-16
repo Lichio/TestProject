@@ -1,6 +1,5 @@
 package oj.nk.和为S的连续正数序列;
 
-import java.io.FilterInputStream;
 import java.util.ArrayList;
 import java.util.Collections;
 

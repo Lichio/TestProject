@@ -2,8 +2,6 @@ package oj.nk.删除链表中重复的节点;
 
 import oj.nk.ListNode;
 
-import java.util.List;
-
 /**
  * TestProject oj.nk.删除链表中重复的节点
  *
